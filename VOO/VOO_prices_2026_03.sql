@@ -2025,3 +2025,28 @@ INSERT IGNORE INTO voo_prices (
     NULL, NULL
   );
 
+INSERT IGNORE INTO voo_prices (
+    timestamp, ticker, source, price_current, price_open, price_high, price_low, 
+    price_prev_close, price_change, price_change_pct, volume, avg_volume_10d,
+    week_52_high, week_52_low, price_return_ytd, market_cap, beta
+  ) VALUES (
+    '2026-03-25 17:25:21', 'VOO', 'finnhub',
+    606.4500, 607.1250, 609.4400, 603.3600,
+    602.3800, 4.0700, 0.6757, 
+    NULL, NULL,
+    NULL, NULL, NULL, 
+    NULL, NULL
+  );
+INSERT IGNORE INTO voo_prices (
+    timestamp, ticker, source, price_current, price_open, price_high, price_low, 
+    price_prev_close, price_change, price_change_pct, volume, avg_volume_10d,
+    week_52_high, week_52_low, price_return_ytd, market_cap, beta
+  ) VALUES (
+    '2026-03-25 17:23:45', 'VOO', 'yfinance',
+    606.7950, 607.4000, 609.4300, 603.3600,
+    602.3800, 4.4150, 0.7329, 
+    4751525, NULL,
+    641.8100, 442.8000, NULL, 
+    NULL, NULL
+  );
+
