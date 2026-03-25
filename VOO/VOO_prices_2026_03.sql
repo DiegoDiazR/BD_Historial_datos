@@ -168,3 +168,28 @@ INSERT IGNORE INTO voo_prices (
   NULL, NULL, NULL, NULL,
   1, 'regular', 2
 );
+INSERT IGNORE INTO voo_prices (
+    timestamp, ticker, source, price_current, price_open, price_high, price_low, price_prev_close
+  ) VALUES (
+    '2026-03-25 14:43:16', 
+    'VOO', 
+    'finnhub', 
+    606.9, 
+    607.125, 
+    609.44, 
+    604.665, 
+    602.38
+  );
+INSERT IGNORE INTO voo_prices (
+    timestamp, ticker, source, price_current, price_open, price_high, price_low, price_prev_close
+  ) VALUES (
+    NULL, 
+    NULL, 
+    NULL, 
+    NULL, 
+    NULL, 
+    NULL, 
+    NULL, 
+    NULL
+  );
+
